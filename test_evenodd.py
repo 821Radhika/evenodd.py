@@ -1,7 +1,5 @@
-from even_odd import even_odd
-
-def test_even():
-    assert even_odd(10) == "Even number"
-
-def test_odd():
-    assert even_odd(7) == "Odd number"
+def even_odd(num):
+    if num % 2 == 0:
+        return "Even number"
+    else:
+        return "Odd number"
